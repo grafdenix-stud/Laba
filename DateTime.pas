@@ -21,4 +21,6 @@ for var i:=year1 to year2 do
   else
     sum+=365;
 Println(sum);
+
+Println(ReadInteger('Введите кол-во часов:')*3600);
 end.

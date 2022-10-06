@@ -8,4 +8,7 @@ if M1 > M2 then Println(D1, M1)
 else if M2 > M1 then Println(D2, M2)
   else if D1 > D2 then Println(D1, M1)
     else Print(D2, M2); 
+    
+if isv then Println(366)
+else Println(365);
 end.
